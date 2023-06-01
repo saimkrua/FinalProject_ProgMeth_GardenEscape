@@ -1,0 +1,30 @@
+.root{
+
+    -fx-alignment : center;
+}
+
+.button {
+	-fx-font-size: 10.0pt;
+    -fx-font-family: "Broken Console";
+  -fx-outer-border : transparent; 
+  -fx-inner-border : transparent;
+  -fx-background-color: transparent;
+  -fx-background-image: url(/image/mainmenu/button.png);
+  -fx-background-size: 100.0% 100.0%; 
+  -fx-text-fill: sienna;
+
+}
+
+.button:hover {
+	-fx-font-size: 10.0pt;
+   	-fx-font-family: "Broken Console";
+	-fx-outer-border : transparent; 
+	-fx-inner-border : transparent;
+	-fx-background-color: transparent;
+	-fx-background-image: url(/image/mainmenu/buttonhover.png);
+	-fx-background-size: 100.0% 100.0%; 
+	-fx-text-fill: white;
+}
+
+
+

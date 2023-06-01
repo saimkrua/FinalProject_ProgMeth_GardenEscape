@@ -1,0 +1,65 @@
+.root{
+    -fx-background-image : url(/image/mainmenu/bg2.png);
+    -fx-background-size: 100% 100%; 
+    -fx-alignment : top-center;
+    -fx-spacing: 50;
+    
+}
+
+.name{
+	-fx-alignment : center;
+}
+
+.stagegrid {
+	-fx-alignment : center;
+	-fx-font-size: 35pt;
+    -fx-font-family: "Broken Console";
+    -fx-hgap : 100;
+    -fx-vgap : 100;
+}
+
+#backbutton{
+  -fx-outer-border : transparent; 
+  -fx-inner-border : transparent;
+  -fx-background-color: transparent;
+  -fx-background-image: url(/image/StageSelect/button.png);
+  -fx-background-size: 100% 100%; 
+  -fx-text-fill: grey;
+  -fx-font-family: "Broken Console";
+  -fx-font-size: 15pt;
+}
+ 
+#backbutton:hover {
+  -fx-outer-border : transparent; 
+  -fx-inner-border : transparent;
+  -fx-background-color: transparent;
+  -fx-background-image: url(/image/StageSelect/buttonhover.png);
+  -fx-background-size: 100% 100%; 
+  -fx-text-fill: white;
+  -fx-font-family: "Broken Console";
+  -fx-font-size: 15pt;
+  
+}
+
+.button {
+
+  -fx-outer-border : transparent; 
+  -fx-inner-border : transparent;
+  -fx-background-color: transparent;
+  -fx-background-image: url(/image/StageSelect/button1.png);
+  -fx-background-size: 100% 100%; 
+  -fx-text-fill: sienna;
+
+}
+
+.button:hover {
+  -fx-outer-border : transparent; 
+  -fx-inner-border : transparent;
+  -fx-background-color: transparent;
+  -fx-background-image: url(/image/StageSelect/button1hover.png);
+  -fx-background-size: 100% 100%; 
+  -fx-text-fill: white;
+}
+
+
+
